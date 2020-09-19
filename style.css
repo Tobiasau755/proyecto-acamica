@@ -74,7 +74,7 @@ h1{font-size: 64px;
 letter-spacing: 0;}
 h3{
     font-size: 16px;}
-    letter-spacing: 0;
+    
 
     .dedondevenimos .texto h1{
     font-size: 48px;}
@@ -132,24 +132,28 @@ display:inline-flex;
     text-align: justify;
 }
     
-.temas .titulo{
-
-  font-size: 20px;  
-}
-.temas {
+    .temas {
     width:1440px;
     height: 426px;
-    display: inline-flex;
-    margin-top: 15px;}
-
-    .temas div{
-        margin:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*margin-top: 15px;*/}
+    .temas .titulo {
+        font-size: 48px;
+       
+        }
+    .temas .iconos{
+        align-items: center;
+        justify-content: center;
     }
+
+
     
     .novedades{
         width: 1440px;
         height:518px;
-        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -158,5 +162,19 @@ display:inline-flex;
 .novedades input{
     margin: 50px;
     padding:20px;
-    background-color: green;
+    background: #00F3BB;
 }
+
+
+
+
+footer{
+    display:inline-flex;
+    width: 1440px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i{margin:15px;}
