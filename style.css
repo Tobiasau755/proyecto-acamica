@@ -1,0 +1,151 @@
+/* proyecto acamica.css*/
+
+
+*{max-width: 1440px;
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+nav img{
+    width: 36px;
+    height: 36px;
+    justify-content: flex-start;
+}
+nav{
+    height: 80px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+   
+}
+ header{
+     
+     background:#4E94AB ;
+ }
+
+
+/*header label{
+     display:none;
+     width: 30px;
+     padding: 10px;}*/
+ 
+  header label:hover{
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);}
+
+
+menu{
+    align-content: center ;
+}
+
+  
+  .menu ul{
+      display:flex;
+      margin:0;
+      padding:0;
+      list-style: none;
+      justify-content: flex-end;
+  }
+
+ 
+
+  .menu li:hover{
+      background: rgba(0,0,0,0.3);
+  }
+  .menu li a{
+      margin:10px;
+      padding: 5px;
+      display: block;
+      color:#fff;
+      text-decoration: none;
+      height: 28px;
+        
+  }
+p{
+    font-size: 16px;
+    letter-spacing: 0;
+}
+  
+h1{font-size: 64px;
+letter-spacing: 0;}
+h3{
+    font-size: 16px;}
+    letter-spacing: 0;
+
+    .dedondevenimos .texto h1{
+    font-size: 48px;
+
+
+}
+.div1{
+    padding:30px;
+}
+.episodios{
+    background-image: -moz-linear-gradient(-65deg, rgba(32,124,229,1) 0%, rgba(32,124,229,1) 50%, rgba(73,155,234,1) 50%, rgba(73,155,234,1) 100%);
+}
+.episodios .arriba{
+    margin-left: 64px;
+    margin-right: 64px;
+    display: inline-flex;
+}
+.episodios .abajo{
+
+    margin-left: 64px;
+    margin-right: 64px;
+    display: inline-flex;
+}
+.episodios  iframe{ 
+    width: 584px;
+    height: 232px;
+    align-content: center;
+    align-items:center;
+    margin: 36px;
+
+}
+
+.invitadas{
+    width: 1440px;
+    height: 728px;
+   
+}
+    .invitadas img{
+        width: 480px;
+        height: 364px;
+        align-content: center;}
+
+.dedondevenimos{display:flex;
+
+}
+
+.dedondevenimos .imagen{
+display:inline-flex;
+}
+.dedondevenimos .texto{
+    margin-top:200px ;
+    text-align: justify;
+}
+    
+
+.temas {
+    width:1440px;
+    height: 426px;
+    display: inline-flex;}
+    
+    .novedades{
+        width: 1440px;
+        height:518px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transform: skewY(0deg, 5deg);
+    }
+.novedades input{
+    margin: 50px;
+    padding:20px;
+    background-color: green;
+}
