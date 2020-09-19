@@ -77,10 +77,11 @@ h3{
     letter-spacing: 0;
 
     .dedondevenimos .texto h1{
-    font-size: 48px;
+    font-size: 48px;}
 
 
-}
+
+
 .div1{
     padding:30px;
 }
@@ -109,9 +110,11 @@ h3{
 
 .invitadas{
     width: 1440px;
-    height: 728px;
+    height: 728px;}
+  
    
-}
+.invitadas div{display: inline-flex;}
+
     .invitadas img{
         width: 480px;
         height: 364px;
@@ -129,11 +132,19 @@ display:inline-flex;
     text-align: justify;
 }
     
+.temas .titulo{
 
+  font-size: 20px;  
+}
 .temas {
     width:1440px;
     height: 426px;
-    display: inline-flex;}
+    display: inline-flex;
+    margin-top: 15px;}
+
+    .temas div{
+        margin:30px;
+    }
     
     .novedades{
         width: 1440px;
